@@ -2,6 +2,7 @@
 
 import rospy
 import csv
+
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse
 from pose_robot_statistics2d.srv import SetTargetDistance, SetTargetDistanceResponse
